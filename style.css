@@ -112,6 +112,33 @@ header .navbar ul li a:hover{
   padding: 1rem 0;
 }
 
+.about{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 1rem 0;
+}
+.about .image {
+  flex: 1 1 40rem;
+}
+.about .image img {
+  width: 100%;
+}
+.about .content {
+  flex: 1 1 40rem;
+}
+.about .content h1{
+  font-size: 5rem;
+  color: #444;
+}
+.about .content p{
+  font-size: 1.6rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
 
 
 
@@ -125,6 +152,10 @@ header .navbar ul li a:hover{
     text-align: center;
   }
   .home .content h1{
+    font-size: 4rem;
+  }
+
+  .about .content h1{
     font-size: 4rem;
   }
 }

@@ -173,6 +173,51 @@ header .navbar ul li a:hover{
   padding: 1rem;
 }
 
+.plan{
+  min-height: 100vh;
+  background: #eee;
+}
+.plan .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 1rem 0;
+}
+.plan .box-container .box {
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  width: 35rem;
+  text-align: center;
+  box-shadow: 0 0 .3rem rgba(0, 0, 0, .3);
+  position: relative;
+}
+.plan .box-container .box .title {
+  font-size: 3rem;
+  color: #666;
+  padding: 1rem 0;
+}
+.plan .box-container .box .price {
+  background: var(--orange);
+  color: #fff;
+  border-radius: 50%;
+  margin: 1rem auto;
+  height: 13rem;
+  width: 13rem;
+  line-height: 13rem;
+  text-align: center;
+  font-size: 2.9rem;
+}
+.plan .box-container .box .price span{
+  font-size: 2rem;
+}
+.plan .box-container .box ul li{
+  color: #666;
+  list-style: none;
+  font-size: 1.7rem;
+  padding: .8rem;
+}
 
 
 
